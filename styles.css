@@ -1,0 +1,195 @@
+body {
+  width:1728px;
+  margin:0px;
+}
+
+header {
+  display:block;
+  position:relative;
+  vertical-align:center;
+  margin:0px;
+  width:1728px;
+  height:1080px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.40),
+    rgba(0, 0, 0, 0.4)
+  ),
+  url(images/wallpaper.jpg);
+  background-size: 100%;
+  background-color:black;
+}
+
+.header_top {
+  display:block;
+  position:relative;
+  height:60px;
+  transition-duration:1s;
+  color:white;
+}
+.q_pic {
+  display:inline-block;
+  position:relative;
+  padding:0px;
+  margin:0px;
+  width:60px;
+}
+.sib_text:nth-child(2n+2) {
+  display:inline-block;
+  position:relative;
+  font-size:30px;
+  vertical-align:top;
+  padding:15px 15px 11px 10%;
+  margin:0px;
+  transition:1s;
+}
+.sib_text:nth-child(2n+3) {
+  display:none;
+}
+.sibs:nth-child(2n+2):hover {
+  display:inline-block;
+  position:relative;
+  font-size:30px;
+  vertical-align:top;
+  padding:15px;
+  margin:0px;
+}
+.sib1:hover {
+  background-color:red;
+  border-radius:15px;
+  padding:13px 13px 13px 10%;
+  opacity:1;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.sib2:hover {
+  background-color:red;
+  border-radius:15px;
+  padding:13px 13px 13px 10%;
+  opacity:1;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.sib3:hover {
+  background-color:red;
+  border-radius:15px;
+  padding:13px 13px 13px 10%;
+  opacity:1;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.header_top:hover {
+  background-color:white;
+  opacity:.6;
+  color:black;
+}
+.sib_text {
+}
+
+.header_middle_surround {
+  display: block;
+  position: relative;
+  margin-left:40px;
+  margin-top:40px;
+  margin-right:170px;
+  border: 5px solid white;
+  padding:5px;
+}
+.header_middle {
+  display: block;
+  position: relative;
+  height: 650px;
+  border: 2px solid white;
+}
+
+.header_bottom {
+  display:block;
+  position:relative;
+  width:1518px;
+  height:268px;
+  margin-left:40px;
+  margin-top:40px;
+  background-color:none;
+}
+.header_bottom_left {
+  display:inline-block;
+  position:relative;
+  height:268px;
+  width:506px;
+  background-color:green;
+  margin-right:-4px;
+  transition-duration:0.5s;
+}
+.header_bottom_left:hover {
+  margin:10px;
+  height:248px;
+  width:480px;
+  border-radius:20px;
+}
+.header_bottom_middle {
+  display:inline-block;
+  position:relative;
+  height:268px;
+  width:506px;
+  background-color:blue;
+  margin-right:-4px;
+  margin-left:-1px;
+  transition-duration:0.5s;
+}
+.header_bottom_middle:hover {
+  margin:10px;
+  height:248px;
+  width:480px;
+  border-radius:20px;
+}
+.header_bottom_right {
+  display:inline-block;
+  position:relative;
+  height:268px;
+  width:505px;
+  background-color:violet;
+  transition-duration:0.5s;
+}
+.header_bottom_right:hover {
+  margin:10px;
+  height:248px;
+  width:480px;
+  border-radius:20px;
+}
+.header_bottom_text {
+  color:white;
+  text-align:center;
+  font-size:50px;
+  vertical-align:top;
+}
+
+h1 {
+  color:white;
+  size: 80px;
+  margin-left:625px;
+  margin-top:300px;
+}
+nav {
+  margin-top:100px;
+}
+
+.portal {
+  display:block;
+  position:absolute;
+  right:0px;
+  top:0px;
+  width:200px;
+  height:812px;
+  background-image: none;
+  background-size: 100%;
+  margin-right:130px;
+  transition:1s;
+}
+.portal:hover {
+  background-height: 812px;
+  background-repeat:none;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
+  ),
+  url(images/beach.jpg);
+
+}
